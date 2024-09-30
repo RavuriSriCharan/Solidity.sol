@@ -13,7 +13,7 @@ This project includes a creation of Token in remix editor which includes Mint an
 - "tokenAbbrv": Public variable storing the abbreviation of the token.
 - "totalSupply": Public variable storing the total supply of the token.
 - "balances": Mapping of addresses to their respective token balances.
-- 
+
 ## Functions
 - "mint(address _address, uint _value)": Increases the total supply and the balance of the specified address.
 - "burn(address _address, uint _value)": Decreases the total supply and the balance of the specified address, if the balance is greater than or equal to the value.
